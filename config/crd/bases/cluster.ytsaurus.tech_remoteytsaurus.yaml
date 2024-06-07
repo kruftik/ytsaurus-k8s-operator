@@ -832,6 +832,9 @@ spec:
                 type: object
               runtimeClassName:
                 type: string
+              setHostnameAsFQDN:
+                default: true
+                type: boolean
               structuredLoggers:
                 items:
                   properties:

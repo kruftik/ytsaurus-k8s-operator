@@ -228,6 +228,9 @@ type InstanceSpec struct {
 	// Overrides coreImage for component.
 	//+optional
 	Image *string `json:"image,omitempty"`
+	//+kubebuilder:default:=true
+	//+optional
+	DisableSetHostnameAsFQDN bool `json:"setHostnameAsFQDN"`
 	// Specifies wrapper for component container command.
 	//+optional
 	EntrypointWrapper []string             `json:"entrypointWrapper,omitempty"`

@@ -958,6 +958,9 @@ spec:
                     type: object
                   runtimeClassName:
                     type: string
+                  setHostnameAsFQDN:
+                    default: true
+                    type: boolean
                   structuredLoggers:
                     items:
                       properties:
@@ -3277,6 +3280,9 @@ spec:
                       type: object
                     runtimeClassName:
                       type: string
+                    setHostnameAsFQDN:
+                      default: true
+                      type: boolean
                     structuredLoggers:
                       items:
                         properties:
@@ -5604,6 +5610,9 @@ spec:
                     type: object
                   runtimeClassName:
                     type: string
+                  setHostnameAsFQDN:
+                    default: true
+                    type: boolean
                   structuredLoggers:
                     items:
                       properties:
@@ -8089,6 +8098,9 @@ spec:
                       type: object
                     runtimeClassName:
                       type: string
+                    setHostnameAsFQDN:
+                      default: true
+                      type: boolean
                     sidecars:
                       description: List of sidecar containers as yaml of corev1.Container.
                       items:
@@ -10447,6 +10459,9 @@ spec:
                       description: Service Type string describes ingress methods for
                         a service
                       type: string
+                    setHostnameAsFQDN:
+                      default: true
+                      type: boolean
                     structuredLoggers:
                       items:
                         properties:
@@ -12812,6 +12827,9 @@ spec:
                     type: object
                   runtimeClassName:
                     type: string
+                  setHostnameAsFQDN:
+                    default: true
+                    type: boolean
                   structuredLoggers:
                     items:
                       properties:
@@ -15178,6 +15196,9 @@ spec:
                     type: object
                   runtimeClassName:
                     type: string
+                  setHostnameAsFQDN:
+                    default: true
+                    type: boolean
                   sidecars:
                     items:
                       type: string
@@ -17489,6 +17510,9 @@ spec:
                     type: object
                   runtimeClassName:
                     type: string
+                  setHostnameAsFQDN:
+                    default: true
+                    type: boolean
                   structuredLoggers:
                     items:
                       properties:
@@ -19794,6 +19818,9 @@ spec:
                     type: object
                   runtimeClassName:
                     type: string
+                  setHostnameAsFQDN:
+                    default: true
+                    type: boolean
                   structuredLoggers:
                     items:
                       properties:
@@ -22115,6 +22142,9 @@ spec:
                       description: Service Type string describes ingress methods for
                         a service
                       type: string
+                    setHostnameAsFQDN:
+                      default: true
+                      type: boolean
                     structuredLoggers:
                       items:
                         properties:
@@ -24460,6 +24490,9 @@ spec:
                     type: object
                   runtimeClassName:
                     type: string
+                  setHostnameAsFQDN:
+                    default: true
+                    type: boolean
                   structuredLoggers:
                     items:
                       properties:
@@ -26782,6 +26815,9 @@ spec:
                       type: object
                     runtimeClassName:
                       type: string
+                    setHostnameAsFQDN:
+                      default: true
+                      type: boolean
                     sidecars:
                       items:
                         type: string
@@ -29175,6 +29211,9 @@ spec:
                       type: object
                     runtimeClassName:
                       type: string
+                    setHostnameAsFQDN:
+                      default: true
+                      type: boolean
                     structuredLoggers:
                       items:
                         properties:
@@ -31523,6 +31562,9 @@ spec:
                       description: Service Type string describes ingress methods for
                         a service
                       type: string
+                    setHostnameAsFQDN:
+                      default: true
+                      type: boolean
                     structuredLoggers:
                       items:
                         properties:
@@ -34046,6 +34088,9 @@ spec:
                     type: object
                   runtimeClassName:
                     type: string
+                  setHostnameAsFQDN:
+                    default: true
+                    type: boolean
                   structuredLoggers:
                     items:
                       properties:

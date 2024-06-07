@@ -257,6 +257,7 @@ _Appears in:_
 | Field | Description | Default | Validation |
 | --- | --- | --- | --- |
 | `image` _string_ | Overrides coreImage for component. |  |  |
+| `setHostnameAsFQDN` _boolean_ |  | true |  |
 | `entrypointWrapper` _string array_ | Specifies wrapper for component container command. |  |  |
 | `volumes` _[Volume](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.28/#volume-v1-core) array_ |  |  |  |
 | `volumeMounts` _[VolumeMount](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.28/#volumemount-v1-core) array_ |  |  |  |
@@ -291,6 +292,7 @@ _Appears in:_
 | Field | Description | Default | Validation |
 | --- | --- | --- | --- |
 | `image` _string_ | Overrides coreImage for component. |  |  |
+| `setHostnameAsFQDN` _boolean_ |  | true |  |
 | `entrypointWrapper` _string array_ | Specifies wrapper for component container command. |  |  |
 | `volumes` _[Volume](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.28/#volume-v1-core) array_ |  |  |  |
 | `volumeMounts` _[VolumeMount](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.28/#volumemount-v1-core) array_ |  |  |  |
@@ -345,6 +347,7 @@ _Appears in:_
 | Field | Description | Default | Validation |
 | --- | --- | --- | --- |
 | `image` _string_ | Overrides coreImage for component. |  |  |
+| `setHostnameAsFQDN` _boolean_ |  | true |  |
 | `entrypointWrapper` _string array_ | Specifies wrapper for component container command. |  |  |
 | `volumes` _[Volume](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.28/#volume-v1-core) array_ |  |  |  |
 | `volumeMounts` _[VolumeMount](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.28/#volumemount-v1-core) array_ |  |  |  |
@@ -433,6 +436,7 @@ _Appears in:_
 | Field | Description | Default | Validation |
 | --- | --- | --- | --- |
 | `image` _string_ | Overrides coreImage for component. |  |  |
+| `setHostnameAsFQDN` _boolean_ |  | true |  |
 | `entrypointWrapper` _string array_ | Specifies wrapper for component container command. |  |  |
 | `volumes` _[Volume](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.28/#volume-v1-core) array_ |  |  |  |
 | `volumeMounts` _[VolumeMount](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.28/#volumemount-v1-core) array_ |  |  |  |
@@ -475,6 +479,7 @@ _Appears in:_
 | Field | Description | Default | Validation |
 | --- | --- | --- | --- |
 | `image` _string_ | Overrides coreImage for component. |  |  |
+| `setHostnameAsFQDN` _boolean_ |  | true |  |
 | `entrypointWrapper` _string array_ | Specifies wrapper for component container command. |  |  |
 | `volumes` _[Volume](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.28/#volume-v1-core) array_ |  |  |  |
 | `volumeMounts` _[VolumeMount](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.28/#volumemount-v1-core) array_ |  |  |  |
@@ -582,6 +587,7 @@ _Appears in:_
 | Field | Description | Default | Validation |
 | --- | --- | --- | --- |
 | `image` _string_ | Overrides coreImage for component. |  |  |
+| `setHostnameAsFQDN` _boolean_ |  | true |  |
 | `entrypointWrapper` _string array_ | Specifies wrapper for component container command. |  |  |
 | `volumes` _[Volume](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.28/#volume-v1-core) array_ |  |  |  |
 | `volumeMounts` _[VolumeMount](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.28/#volumemount-v1-core) array_ |  |  |  |
@@ -782,6 +788,7 @@ _Appears in:_
 | Field | Description | Default | Validation |
 | --- | --- | --- | --- |
 | `image` _string_ | Overrides coreImage for component. |  |  |
+| `setHostnameAsFQDN` _boolean_ |  | true |  |
 | `entrypointWrapper` _string array_ | Specifies wrapper for component container command. |  |  |
 | `volumes` _[Volume](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.28/#volume-v1-core) array_ |  |  |  |
 | `volumeMounts` _[VolumeMount](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.28/#volumemount-v1-core) array_ |  |  |  |
@@ -837,6 +844,7 @@ _Appears in:_
 | Field | Description | Default | Validation |
 | --- | --- | --- | --- |
 | `image` _string_ | Overrides coreImage for component. |  |  |
+| `setHostnameAsFQDN` _boolean_ |  | true |  |
 | `entrypointWrapper` _string array_ | Specifies wrapper for component container command. |  |  |
 | `volumes` _[Volume](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.28/#volume-v1-core) array_ |  |  |  |
 | `volumeMounts` _[VolumeMount](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.28/#volumemount-v1-core) array_ |  |  |  |
@@ -914,6 +922,7 @@ _Appears in:_
 | Field | Description | Default | Validation |
 | --- | --- | --- | --- |
 | `image` _string_ | Overrides coreImage for component. |  |  |
+| `setHostnameAsFQDN` _boolean_ |  | true |  |
 | `entrypointWrapper` _string array_ | Specifies wrapper for component container command. |  |  |
 | `volumes` _[Volume](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.28/#volume-v1-core) array_ |  |  |  |
 | `volumeMounts` _[VolumeMount](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.28/#volumemount-v1-core) array_ |  |  |  |
@@ -948,6 +957,7 @@ _Appears in:_
 | Field | Description | Default | Validation |
 | --- | --- | --- | --- |
 | `image` _string_ | Overrides coreImage for component. |  |  |
+| `setHostnameAsFQDN` _boolean_ |  | true |  |
 | `entrypointWrapper` _string array_ | Specifies wrapper for component container command. |  |  |
 | `volumes` _[Volume](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.28/#volume-v1-core) array_ |  |  |  |
 | `volumeMounts` _[VolumeMount](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.28/#volumemount-v1-core) array_ |  |  |  |
@@ -982,6 +992,7 @@ _Appears in:_
 | Field | Description | Default | Validation |
 | --- | --- | --- | --- |
 | `image` _string_ | Overrides coreImage for component. |  |  |
+| `setHostnameAsFQDN` _boolean_ |  | true |  |
 | `entrypointWrapper` _string array_ | Specifies wrapper for component container command. |  |  |
 | `volumes` _[Volume](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.28/#volume-v1-core) array_ |  |  |  |
 | `volumeMounts` _[VolumeMount](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.28/#volumemount-v1-core) array_ |  |  |  |
@@ -1089,6 +1100,7 @@ _Appears in:_
 | `configOverrides` _[LocalObjectReference](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.28/#localobjectreference-v1-core)_ |  |  |  |
 | `imagePullSecrets` _[LocalObjectReference](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.28/#localobjectreference-v1-core) array_ |  |  |  |
 | `image` _string_ | Overrides coreImage for component. |  |  |
+| `setHostnameAsFQDN` _boolean_ |  | true |  |
 | `entrypointWrapper` _string array_ | Specifies wrapper for component container command. |  |  |
 | `volumes` _[Volume](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.28/#volume-v1-core) array_ |  |  |  |
 | `volumeMounts` _[VolumeMount](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.28/#volumemount-v1-core) array_ |  |  |  |
@@ -1153,6 +1165,7 @@ _Appears in:_
 | `cellTag` _integer_ |  |  |  |
 | `hostAddresses` _string array_ |  |  |  |
 | `image` _string_ | Overrides coreImage for component. |  |  |
+| `setHostnameAsFQDN` _boolean_ |  | true |  |
 | `entrypointWrapper` _string array_ | Specifies wrapper for component container command. |  |  |
 | `volumes` _[Volume](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.28/#volume-v1-core) array_ |  |  |  |
 | `volumeMounts` _[VolumeMount](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.28/#volumemount-v1-core) array_ |  |  |  |
@@ -1192,6 +1205,7 @@ _Appears in:_
 | Field | Description | Default | Validation |
 | --- | --- | --- | --- |
 | `image` _string_ | Overrides coreImage for component. |  |  |
+| `setHostnameAsFQDN` _boolean_ |  | true |  |
 | `entrypointWrapper` _string array_ | Specifies wrapper for component container command. |  |  |
 | `volumes` _[Volume](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.28/#volume-v1-core) array_ |  |  |  |
 | `volumeMounts` _[VolumeMount](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.28/#volumemount-v1-core) array_ |  |  |  |
@@ -1319,6 +1333,7 @@ _Appears in:_
 | Field | Description | Default | Validation |
 | --- | --- | --- | --- |
 | `image` _string_ | Overrides coreImage for component. |  |  |
+| `setHostnameAsFQDN` _boolean_ |  | true |  |
 | `entrypointWrapper` _string array_ | Specifies wrapper for component container command. |  |  |
 | `volumes` _[Volume](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.28/#volume-v1-core) array_ |  |  |  |
 | `volumeMounts` _[VolumeMount](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.28/#volumemount-v1-core) array_ |  |  |  |
@@ -1374,6 +1389,7 @@ _Appears in:_
 | Field | Description | Default | Validation |
 | --- | --- | --- | --- |
 | `image` _string_ | Overrides coreImage for component. |  |  |
+| `setHostnameAsFQDN` _boolean_ |  | true |  |
 | `entrypointWrapper` _string array_ | Specifies wrapper for component container command. |  |  |
 | `volumes` _[Volume](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.28/#volume-v1-core) array_ |  |  |  |
 | `volumeMounts` _[VolumeMount](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.28/#volumemount-v1-core) array_ |  |  |  |
@@ -1537,6 +1553,7 @@ _Appears in:_
 | Field | Description | Default | Validation |
 | --- | --- | --- | --- |
 | `image` _string_ | Overrides coreImage for component. |  |  |
+| `setHostnameAsFQDN` _boolean_ |  | true |  |
 | `entrypointWrapper` _string array_ | Specifies wrapper for component container command. |  |  |
 | `volumes` _[Volume](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.28/#volume-v1-core) array_ |  |  |  |
 | `volumeMounts` _[VolumeMount](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.28/#volumemount-v1-core) array_ |  |  |  |
