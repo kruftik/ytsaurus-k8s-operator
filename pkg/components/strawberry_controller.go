@@ -7,6 +7,7 @@ import (
 	"strings"
 
 	corev1 "k8s.io/api/core/v1"
+	"k8s.io/apimachinery/pkg/api/resource"
 	"k8s.io/apimachinery/pkg/util/intstr"
 
 	ytv1 "github.com/ytsaurus/ytsaurus-k8s-operator/api/v1"
@@ -36,6 +37,13 @@ type StrawberryController struct {
 
 const ControllerConfigFileName = "strawberry-controller.yson"
 const ChytInitClusterJobConfigFileName = "chyt-init-cluster.yson"
+
+var (
+	strawberryControllerCPURequest = resource.MustParse("50m")
+
+	strawberryControllerMemoryRequest = resource.MustParse("64Mi")
+	strawberryControllerMemoryLimit   = resource.MustParse("512Mi")
+)
 
 func NewStrawberryController(
 	cfgen *ytconfig.Generator,
@@ -220,6 +228,15 @@ func (c *StrawberryController) syncComponents(ctx context.Context) (err error) {
 				"--config-path",
 				path.Join(consts.ConfigMountPoint, ControllerConfigFileName),
 				"run",
+			},
+			Resources: corev1.ResourceRequirements{
+				Limits: corev1.ResourceList{
+					corev1.ResourceMemory: strawberryControllerMemoryLimit,
+				},
+				Requests: corev1.ResourceList{
+					corev1.ResourceCPU:    strawberryControllerCPURequest,
+					corev1.ResourceMemory: strawberryControllerMemoryRequest,
+				},
 			},
 			Ports: []corev1.ContainerPort{
 				{
